@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Pathfinder",
+    "slug": "pathfinder-8dq1d9xs8ef8vfhm8nenv",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hunterdamsgardorg.pathfinder8dq1d9xs8ef8vfhm8nenv"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hunterdamsgardorg.pathfinder8dq1d9xs8ef8vfhm8nenv"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b6d0d28-0908-420c-ab3a-c8f63b0371a0"
+      }
+    },
+    "owner": "hunterdamsgard-org",
+    "updates": {
+      "url": "https://u.expo.dev/2b6d0d28-0908-420c-ab3a-c8f63b0371a0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
